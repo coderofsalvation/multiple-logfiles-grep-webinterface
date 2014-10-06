@@ -1,0 +1,11 @@
+#!/bin/bash 
+SELF_PATH="$(dirname "$(readlink -f "$0")" )"
+
+declare -A logfiles
+# add your logfiles here
+logfiles["global"]="$SELF_PATH/../log/foo.log"
+
+# LC_ALL=C speeds up grep
+for logfile in "${!logfiles[@]}"; do 
+  LC_ALL=C grep -hER "$1" ${logfiles[$logfile]} | grep -v '`message` =' | head -200 | while read line; do echo "$logfile> $line"; done
+done

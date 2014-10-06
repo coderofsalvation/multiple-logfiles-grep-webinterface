@@ -1,0 +1,77 @@
+[2023-10-06 13:41:33] <1944496> [STDIN:0.55::NOTIC] turning UNCAUGHT_EXCEPTION into event 'FILE_RACE_CONDITION': /home/yurname/projects/myapp.BURP-96/src/test/box/tests/white/1000-framework-error-ignorelist.php:31 CLASSDB_COULD_NOT_PARSE_EASYTOBOOK_JSON
+[2023-10-06 13:41:33] <1868144> [STDIN:0.00::NOTIC] request: php ./1000-framework-init.php
+[2023-10-06 13:41:33] <1896432> [STDIN:0.00::NOTIC] request: php ./1010-lib-Mapping.php
+[2023-10-06 13:41:33] <1885712> [STDIN:0.00::NOTIC] request: php ./1020-lib-RequestOutHTTP.php
+[2023-10-06 13:41:34] <1872496> [STDIN:0.00::NOTIC] request: php ./1020-lib-Trace.php
+[2023-10-06 13:41:34] <1876792> [STDIN:0.00::NOTIC] 1412595694
+[2023-10-06 13:41:34] <1897112> [STDIN:0.00::NOTIC] request: php ./1100-lib-util-ClassDb.php
+[2023-10-06 13:41:34] <1919008> [STDIN:0.00::WARNI] CALLED_VARIABLE_BUT_NOT_FOUND_IN_PLUGIN_OR_PLUGIN_DATAFILE:feroer_Foo
+[2023-10-06 13:41:34] <2144280> [STDIN:0.00::NOTIC] request: php ./1110-fff1013-lib-util-DateUtil.php
+[2023-10-06 13:41:34] <2001592> [STDIN:0.00::NOTIC] request: php ./1296-BookingManager.php
+[2023-10-06 13:41:35] <2023200> [STDIN:0.24::ERROR] writing booking ABCD to database: foomsg
+[2023-10-06 13:41:35] <3529176> [STDIN:0.00:exampleflop pull foobar:ERROR] request: php ./14000-ExampleHotelChannelPlugin.php
+[2023-10-06 13:41:35] <3802288> [STDIN:0.01:exampleflop pull foobar:ERROR] --- starting synchronization ---
+[2023-10-06 13:41:35] <3807680> [STDIN:0.01:exampleflop pull foobar:ERROR] getting latest property mapping from Burp
+[2023-10-06 13:41:35] <3898832> [STDIN:0.03:exampleflop pull foobar:WARNI] CALLED_VARIABLE_BUT_NOT_FOUND_IN_PLUGIN_OR_PLUGIN_DATAFILE:mappingcache_ExampleHotelChannelPlugin
+[2023-10-06 13:41:35] <3901168> [STDIN:0.03:exampleflop pull foobar:ERROR] no mappings found, will probably go fine after cache is built after 1st run
+[2023-10-06 13:41:35] <4283832> [STDIN:0.06:exampleflop pull foobar:ERROR] retrieved mappings, now getting changes 
+[2023-10-06 13:41:36] <5524840> [STDIN:0.83:exampleflop pull foobar:ERROR] fictional statistical data: 3
+[2023-10-06 13:41:36] <5529136> [STDIN:0.83:exampleflop pull foobar:ERROR] sync finished (started @ 2023-10-06 13:41:36)
+[2023-10-06 13:41:36] <5531456> [STDIN:0.83:exampleflop pull foobar:ERROR] elapsed time: 0.82628107070923 seconds
+[2023-10-06 13:41:41] <4144416> [STDIN:0.10:examplechannelplugin push:ERROR] fictional statistical data: 3
+[2023-10-06 13:41:41] <4148712> [STDIN:0.10:examplechannelplugin push:ERROR] sync finished (started @ 2023-10-06 13:41:41)
+[2023-10-06 13:41:41] <4151032> [STDIN:0.10:examplechannelplugin push:ERROR] elapsed time: 0.098584890365601 seconds
+[2023-10-06 13:41:41] <4155568> [STDIN:0.10:examplechannelplugin push:WARNI] ignored  property: (localPropertyId: 99999999991) (reason: fake reason/exception)
+[2023-10-06 13:41:41] <4157336> [STDIN:0.10:examplechannelplugin push:ERROR] succesfully re-enabled/forcefull resync property: (localPropertyId: 99999999990) (reason: fake (test))
+[2023-10-06 13:41:41] <4162616> [STDIN:0.10:examplechannelplugin push:WARNI] failed to re-enabled/forcefull resync property: (localPropertyId: 184) (reason: [channel]mapping modificationdate was updated)
+[2023-10-06 13:41:41] <4163648> [STDIN:0.10:examplechannelplugin push:NOTIC] succesfully re-enabled/forcefull resync group: (localPropertyId: 99999999990) (reason: fake (test))
+[2023-10-06 13:41:41] <4181080> [STDIN:0.12:examplechannelplugin push:NOTIC] ExampleChannelPlugin::close(OK) = OK
+[2023-10-06 13:41:41] <4215032> [STDIN:0.00:examplechannelplugin push:NOTIC] request: php ./2102-ExampleChannelPlugin-groupCalendarChanges-PUSH_TO_POPULATE_DATA.php
+[2023-10-06 13:43:05] <8180400> [STDIN:0.26:expedia pullpush bookings:NOTIC] CompanyX::close(ok) = OK
+[2023-10-06 13:43:05] <8132032> [STDIN:0.00:expedia push stuff:NOTIC] request: php ./25000-fff165-CompanyXPlugin.php
+[2023-10-06 13:43:05] <8384536> [STDIN:0.01:expedia push stuff:NOTIC] Pushing 1 AvailRateUpdate message(s) to CompanyX for flopid 71111
+[2023-10-06 13:43:05] <8381648> [STDIN:0.03:expedia push stuff:NOTIC] CompanyX::close(ok) = OK
+[2023-10-06 13:43:05] <8354144> [STDIN:0.00:expedia push stuff:NOTIC] request: php ./25000-fff165-CompanyXPlugin.php
+[2023-10-06 13:43:05] <8427520> [STDIN:0.01:expedia push stuff:NOTIC] CompanyX::close(ok) = OK
+[2023-10-06 13:43:05] <5234440> [STDIN:0.00:foo pullpush bookings:NOTIC] request: php ./26000-BURP-96-CompanyZ-bookings.php
+[2023-10-06 13:43:05] <5693064> [STDIN:0.01:foo pullpush bookings:NOTIC] getting pulled bookings from database
+[2023-10-06 13:43:05] <5698656> [STDIN:0.01:foo pullpush bookings:NOTIC] processing 0 bookings
+[2023-10-06 13:43:05] <5726824> [STDIN:0.01:foo pullpush bookings:NOTIC] CompanyZ::close(ok) = OK
+[2023-10-06 13:43:05] <5245400> [STDIN:0.00:foo pull stuff:NOTIC] request: php ./26000-BURP-96-CompanyZ.php
+[2023-10-06 13:43:05] <5644584> [STDIN:0.01:foo pull stuff:NOTIC] --- starting synchronization ---
+[2023-10-06 13:43:05] <5650560> [STDIN:0.01:foo pull stuff:NOTIC] getting latest property mapping from Burp
+[2023-10-06 13:43:05] <6000712> [STDIN:0.02:foo pull stuff:NOTIC] retrieved mappings, now getting changes 
+[2023-10-06 13:43:06] <9131736> [STDIN:0.57:foo pull stuff:NOTIC] sync finished (started @ 2023-10-06 13:43:06)
+[2023-10-06 13:43:06] <9134056> [STDIN:0.57:foo pull stuff:NOTIC] elapsed time: 0.57265114784241 seconds
+[2023-10-06 13:43:06] <9153216> [STDIN:0.59:foo pull stuff:NOTIC] CompanyZ::close(ok) = OK
+[2023-10-06 13:43:06] <9176584> [STDIN:0.00:foo pull stuff:NOTIC] request: php ./26000-BURP-96-CompanyZ.php
+[2023-10-06 13:43:06] <9289192> [STDIN:0.00:foo pull stuff:NOTIC] --- starting synchronization ---
+[2023-10-06 13:43:06] <9293200> [STDIN:0.01:foo pull stuff:NOTIC] getting latest property mapping from Burp
+[2023-10-06 13:43:06] <8431016> [STDIN:0.03:foo pull stuff:NOTIC] retrieved mappings, now getting changes 
+[2023-10-06 13:43:07] <20331744> [STDIN:0.81:foo pull stuff:NOTIC] Group #14 is fully synced. Resetting to normal state.
+[2023-10-06 13:43:07] <11789144> [STDIN:0.87:foo pull stuff:NOTIC] sync finished (started @ 2023-10-06 13:43:07)
+[2023-10-06 13:43:07] <11791464> [STDIN:0.87:foo pull stuff:NOTIC] elapsed time: 0.87244915962219 seconds
+[2023-10-06 13:43:07] <11810432> [STDIN:0.89:foo pull stuff:NOTIC] CompanyZ::close(ok) = OK
+[2023-10-06 13:43:07] <11768352> [STDIN:0.00:foo pull stuff:NOTIC] request: php ./26000-BURP-96-CompanyZ.php
+[2023-10-06 13:43:07] <11881544> [STDIN:0.00:foo pull stuff:NOTIC] --- starting synchronization ---
+[2023-10-06 13:43:07] <11885520> [STDIN:0.00:foo pull stuff:NOTIC] getting latest property mapping from Burp
+[2023-10-06 13:43:07] <11001296> [STDIN:0.01:foo pull stuff:NOTIC] retrieved mappings, now getting changes 
+[2023-10-06 13:43:07] <13225400> [STDIN:0.43:foo pull stuff:NOTIC] sync finished (started @ 2023-10-06 13:43:07)
+[2023-10-06 13:43:07] <13227720> [STDIN:0.43:foo pull stuff:NOTIC] elapsed time: 0.43171811103821 seconds
+[2023-10-06 13:43:07] <13244496> [STDIN:0.45:foo pull stuff:NOTIC] CompanyZ::close(ok) = OK
+[2023-10-06 13:43:07] <13202936> [STDIN:0.00:foo push stuff:NOTIC] request: php ./26000-BURP-96-CompanyZ.php
+[2023-10-06 13:43:07] <15340328> [STDIN:0.02:foo push stuff:WARNI] groupId 14 was not found in mapping
+[2023-10-06 13:43:07] <15342976> [STDIN:0.02:foo push stuff:NOTIC] group 14 cannot be pinged/blocked today:
+[2023-10-06 13:43:07] <15318688> [STDIN:0.07:foo push stuff:NOTIC] a full sync will automatically take place when this changes
+[2023-10-06 13:43:07] <13532488> [STDIN:0.08:foo push stuff:NOTIC] CompanyZ::close(ok) = OK
+[2023-10-06 13:43:08] <3739584> [STDIN:0.00:agoda pull foobar:NOTIC] request: php ./35000-fff949-CompanyXYZPlugin.php
+[2023-10-06 13:43:08] <4078104> [STDIN:0.01:agoda pull foobar:NOTIC] --- starting synchronization ---
+[2023-10-06 13:43:08] <4083440> [STDIN:0.01:agoda pull foobar:NOTIC] getting latest property mapping from Burp
+[2023-10-06 13:43:08] <4144688> [STDIN:0.01:agoda pull foobar:WARNI] CALLED_VARIABLE_BUT_NOT_FOUND_IN_PLUGIN_OR_PLUGIN_DATAFILE:mappingcache_CompanyXYZ
+[2023-10-06 13:43:08] <4147016> [STDIN:0.01:agoda pull foobar:NOTIC] no mappings found, will probably go fine after cache is built after 1st run
+[2023-10-06 13:43:08] <4471000> [STDIN:0.08:agoda pull foobar:NOTIC] retrieved mappings, now getting changes 
+[2023-10-06 13:43:08] <6506088> [STDIN:0.81:agoda pull foobar:NOTIC] sync finished (started @ 2023-10-06 13:43:08)
+[2023-10-06 13:43:08] <6508400> [STDIN:0.81:agoda pull foobar:NOTIC] elapsed time: 0.81444382667542 seconds
+[2023-10-06 13:43:08] <6527728> [STDIN:0.83:agoda pull foobar:NOTIC] CompanyXYZ::close(ok) = OK
+[2023-10-06 13:43:08] <6554552> [STDIN:0.00:agoda push foobar:NOTIC] request: php ./35000-fff949-CompanyXYZPlugin.php
+[2023-10-06 13:43:08] <6768664> [STDIN:0.01:agoda push foobar:NOTIC] pushing foobar!
