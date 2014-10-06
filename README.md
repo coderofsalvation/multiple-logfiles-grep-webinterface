@@ -3,6 +3,8 @@ multiple-logfiles-grep-webinterface
 
 deadsimple phpfile which allows grepping on logfiles using a browser (handy for collegues e.g.)
 
+<img alt="" src="log/screenshot.png"/>
+
 ## Why
 
 To prevent developers becoming a middle-man-for-support.
