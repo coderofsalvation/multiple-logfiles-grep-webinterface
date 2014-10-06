@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Multiple-logfiles-grep-webinterface by coderofsalvation</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Multiple-logfiles-grep-webinterface</h1>
+        <p>deadsimple phpfile which allows grepping on logfiles using a browser (handy for collegues e.g.)</p>
+
+        <p class="view"><a href="https://github.com/coderofsalvation/multiple-logfiles-grep-webinterface">View the Project on GitHub <small>coderofsalvation/multiple-logfiles-grep-webinterface</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/coderofsalvation/multiple-logfiles-grep-webinterface/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/coderofsalvation/multiple-logfiles-grep-webinterface/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/coderofsalvation/multiple-logfiles-grep-webinterface">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="multiple-logfiles-grep-webinterface" class="anchor" href="#multiple-logfiles-grep-webinterface"><span class="octicon octicon-link"></span></a>multiple-logfiles-grep-webinterface</h1>
+
+<p>deadsimple phpfile which allows grepping on logfiles using a browser (handy for collegues e.g.)</p>
+
+<p><img alt="" src="https://github.com/coderofsalvation/multiple-logfiles-grep-webinterface/blob/master/log/screenshot.png"></p>
+
+<h2>
+<a name="why" class="anchor" href="#why"><span class="octicon octicon-link"></span></a>Why</h2>
+
+<p>To prevent developers becoming a middle-man-for-support.</p>
+
+<h2>
+<a name="but-why" class="anchor" href="#but-why"><span class="octicon octicon-link"></span></a>But Why?</h2>
+
+<p>Sometimes there's no budget/time for developers to move their logfiles to something more robust (logging webservices e.g.), 
+and/or to create email notifications for (many times unknown) situations.
+Logging to a file, however is usually the 'poor mans'-history for developers.</p>
+
+<h2>
+<a name="how-to-use-it" class="anchor" href="#how-to-use-it"><span class="octicon octicon-link"></span></a>How to use it?</h2>
+
+<p>Easy:</p>
+
+<ul>
+<li>Put the files into your rootdirectory</li>
+<li>change the 'login' and 'password' in <code>log.php</code>
+</li>
+<li>point to the appropriate logfiles in <code>cli/greplogs</code>
+</li>
+<li>point collegues to <a href="https://yourdomain.com/log.php">https://yourdomain.com/log.php</a>
+</li>
+<li>ask them to disturb you <em>after</em> checkin the logs</li>
+</ul><p>Voila!</p>
+
+<h2>
+<a name="tip" class="anchor" href="#tip"><span class="octicon octicon-link"></span></a>Tip</h2>
+
+<p>use php's syslog() instead of writing to a file, because:</p>
+
+<ul>
+<li>it ends up in /var/log/messages</li>
+<li>it automatically rotates your files</li>
+<li>it allows you to trigger email notifications upon certain stringpatterns</li>
+<li>it's reliable (files are not, think race-conditions e.g.)</li>
+</ul><p>Eventually you can look in to online logging tools if the volumes become huge.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/coderofsalvation">coderofsalvation</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
