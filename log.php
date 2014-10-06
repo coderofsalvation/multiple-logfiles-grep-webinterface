@@ -13,7 +13,7 @@
       exit;
     }
   }
-  httpAuthenticate("billy","worlddomination");
+  httpAuthenticate("login","yourpassword");
   date_default_timezone_set( "Europe/Amsterdam" );
 ?>
 
